@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView hiển thị số đếm -->
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="24dp"
+        >
+    </TextView>
+
+    <!-- Nút tăng -->
+    <Button
+        android:id="@+id/btnTap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvCount"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent">
+    </Button>
+
+    <!-- Nút reset -->
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Reset"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnTap"
+        android:layout_marginTop="16dp">
+
+    </Button>
+</RelativeLayout>

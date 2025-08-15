@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tipCalculatorFragment">
+
+    <fragment
+        android:id="@+id/tapCounterFragment"
+        android:name="com.example.learnkotlin.view.TapCounterFragment"
+        android:label="TapCounterFragment" />
+    <fragment
+        android:id="@+id/tipCalculatorFragment"
+        android:name="com.example.learnkotlin.view.TipCalculatorFragment"
+        android:label="TipCalculatorFragment" />
+</navigation>
